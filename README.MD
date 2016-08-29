@@ -18,14 +18,14 @@ if the widget is active the normal behavior of navigation on the site will feel 
 
 --example
 
-WHEN:__
-	there is a standard html page and the user wants to interact with one of it's elements__
-WHEN:__
-  activates widget on page__
-  AND the user performs a gesture__ 
-THEN:__
-  the navigation reacts on the user based command__
-  (depending on the implemention of tzhe ruleset)__
+WHEN:<br/>
+	there is a standard html page and the user wants to interact with one of it's elements<br/>
+WHEN:<br/>
+  activates widget on page<br/>
+  AND the user performs a gesture<br/>
+THEN:<br/>
+  the navigation reacts on the user based command<br/>
+  (depending on the implemention of tzhe ruleset)<br/>
 
 
 ###rulesets: (these are model-thoughts that can be combined in the controller)
