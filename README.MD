@@ -16,19 +16,20 @@ if the widget is active the normal behavior of navigation on the site will feel 
 (https://dev.opera.com/articles/w3c-device-orientation-api/device-gamma.png)
 
 
----example
+--example
 
-WHEN:
-	there is a standard html page and the user wants to interact with one of it's elements
-WHEN
-  activates widget on page
-  AND the user performs a gesture 
-THEN
-  the navigation reacts on the user based command
-  (depending on the implemention of tzhe ruleset)
+WHEN:__
+	there is a standard html page and the user wants to interact with one of it's elements__
+WHEN:__
+  activates widget on page__
+  AND the user performs a gesture__ 
+THEN:__
+  the navigation reacts on the user based command__
+  (depending on the implemention of tzhe ruleset)__
 
 
-##1st throw ruleset (these are examples and not finished yet)
+###rulesets: (these are model-thoughts that can be combined in the controller)
+1st throw ruleset (these are examples and not finished yet)
 - tilt right -- browse right hand content --deeper nested 
 - tilt left -- browse left handf content --higher nodes
 - shake -- reset to normal state // close lightbox
@@ -36,24 +37,23 @@ THEN
 
 
 ###2DO
-coding:
+-coding:
+  - write(or steal) a simple html environment
+  - make navigation switchable / widget charakter!
+  - bind some navigational actions to gestures
+  - 1.) 360° turn in canvas - skybox like
+  - 2.) go level deeper/higher
+  - 3.) slide with gesture 
+  - 4.) raise quantity of some anything
+  - 5.) feel free to add more usecases
 
-- write(or steal) a simple html environment
-- make navigation switchable / widget charakter!
-- bind some navigational actions to gestures
-- 1.) 360° turn in canvas - skybox like
-- 2.) go level deeper/higher
-- 3.) slide with gesture 
-- 4.) raise quantity of some anything
-- 5.) feel free to add more usecases
-
-concept:
-- create a simple ruleset that key/values (maps) gesture/action
+-concept:
+  - create a simple ruleset that key/values (maps) gesture/action
 
 
-knowledge:
-- research on deviceOrientation events
-- research on term "nested sets"
+-knowledge:
+  - research on deviceOrientation events
+  - research on term "nested sets"
 
 
 ###Links
@@ -61,7 +61,7 @@ knowledge:
 - https://github.com/dorukeker/gyronorm.js
 - https://developer.android.com/guide/topics/sensors/sensors_motion.html
 
-/---------
+
 list of possible events: 
 
 (!! i looked those up at android events, its still questionable if these events also occur on window.Events)
