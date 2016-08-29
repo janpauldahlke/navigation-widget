@@ -66,8 +66,8 @@ list of possible events:
 
 (!! i looked those up at android events, its still questionable if these events also occur on window.Events)
 
--orientation (x-y-z) 
--gyroscope (x-y-z: rotation)
--rotation (..)
--gravity (force of g on x-y-z-axis)
--accelaration(orce of g on x-y-z-axis -- but also contains gravity)
+- orientation (x-y-z) 
+- gyroscope (x-y-z: rotation)
+- rotation (..)
+- gravity (force of g on x-y-z-axis)
+- accelaration(orce of g on x-y-z-axis -- but also contains gravity)
