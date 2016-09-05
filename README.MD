@@ -46,6 +46,8 @@ THEN:<br/>
   - 3.) slide with gesture 
   - 4.) raise quantity of some anything
   - 5.) feel free to add more usecases
+-update 05092016
+  - also bind on event on scrolling text infinite
 
 -concept:
   - create a simple ruleset that key/values (maps) gesture/action
@@ -71,3 +73,5 @@ list of possible events:
 - rotation (..)
 - gravity (force of g on x-y-z-axis)
 - accelaration(orce of g on x-y-z-axis -- but also contains gravity)
+
+

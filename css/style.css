@@ -1,0 +1,53 @@
+body{
+    background: #a5a5a2;
+}
+
+
+/* nav styling here */
+/* find me a better classname*/
+header{
+    background-color: white;
+    position: fixed;
+    top:0;
+    height:10vm;
+    width: 100%;
+}
+/*prevent list style */
+ul{
+    list-style:none;
+}
+
+li{
+    display:inline-block;
+}
+
+/* kein sass! also kein BEM*/
+.toplevel-nav:hover .noshow{
+    display: block;
+}
+.toplevel-nav__item{
+    width:20%;
+}
+
+.noshow{
+    display:none;
+}
+
+
+
+.midlevel-nav{
+    /*display:none;*/
+}
+.bottomlevel-nav{
+    display: none;
+}
+
+
+
+
+
+/*section foo*/
+section{
+    margin: 0 auto;
+    width: 800px;
+}

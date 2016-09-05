@@ -1,0 +1,25 @@
+{
+  "name": "navigation-widget",
+  "version": "0.0.1",
+  "description": "a little example prject. here we want to make use of motion sensors to create a gesture based navigation on smartphones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janpauldahlke/navigation-widget.git"
+  },
+  "keywords": [
+    "prototype"
+  ],
+  "author": "jdahlke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janpauldahlke/navigation-widget/issues"
+  },
+  "homepage": "https://github.com/janpauldahlke/navigation-widget#readme",
+  "devDependencies": {
+    "gyronorm": "^2.0.4"
+  }
+}
